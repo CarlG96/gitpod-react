@@ -11,6 +11,12 @@ import NestingComponents from './components/NestingComponents';
 import MethodsAsPropsChild from './components/MethodsAsPropsChild';
 import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 import RenderingLists from './components/RenderingLists';
+import LifeCycleCDM from './components/LifeCycleCDM';
+import LifeCycleCDMChild from './components/LifeCycleCDMChild';
+import LifeCycleCDU from './components/LifeCycleCDU';
+import LifeCycleCDUChild from './components/LifeCycleCDUChild';
+import LifeCycleCWU from './components/LifeCycleCWU';
+
 
 function App() {
   return (
@@ -24,7 +30,10 @@ function App() {
       {/* <ConditionalRenderingClass /> */}
       {/* <NestingComponents /> */}
       {/* <MethodsAsPropsParent className={CSS.NavBar}/> */}
-      <RenderingLists />
+      {/* <RenderingLists /> */}
+      {/* <LifeCycleCDM /> */}
+      {/* <LifeCycleCDU /> */}
+      <LifeCycleCWU />
     </div>
   );
 }
