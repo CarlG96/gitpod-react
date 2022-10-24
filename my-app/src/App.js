@@ -19,6 +19,8 @@ import LifeCycleCWU from './components/LifeCycleCWU';
 import ControlledForm from './components/ControlledForm';
 import UnControlledForm from './components/UncontrolledForm';
 import SearchBar from './components/SearchBar';
+import ControlledFormHooks from './components/ControlledFormHooks';
+import UseStateWithArrays from './components/UseStateWithArrays';
 
 
 function App() {
@@ -39,7 +41,9 @@ function App() {
       {/* <LifeCycleCWU /> */}
       {/* <ControlledForm /> */}
       {/* <UnControlledForm /> */}
-      <SearchBar />
+      {/* <SearchBar /> */}
+      {/* <ControlledFormHooks /> */}
+      <UseStateWithArrays />
     </div>
   );
 }
