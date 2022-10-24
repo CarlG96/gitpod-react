@@ -18,6 +18,7 @@ import LifeCycleCDUChild from './components/LifeCycleCDUChild';
 import LifeCycleCWU from './components/LifeCycleCWU';
 import ControlledForm from './components/ControlledForm';
 import UnControlledForm from './components/UncontrolledForm';
+import SearchBar from './components/SearchBar';
 
 
 function App() {
@@ -37,7 +38,8 @@ function App() {
       {/* <LifeCycleCDU /> */}
       {/* <LifeCycleCWU /> */}
       {/* <ControlledForm /> */}
-      <UnControlledForm />
+      {/* <UnControlledForm /> */}
+      <SearchBar />
     </div>
   );
 }
